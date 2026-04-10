@@ -1,0 +1,33 @@
+#:schema https://developers.openai.com/codex/config-schema.json
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "live"
+
+[features]
+multi_agent = true
+
+[profiles.strict]
+approval_policy = "on-request"
+sandbox_mode = "read-only"
+web_search = "cached"
+
+[agents]
+max_threads = 4
+max_depth = 1
+
+[agents.report_analyst]
+description = "General reporting analyst for finance, AML, and tracking workflows."
+config_file = "agents/report-analyst.toml"
+
+[agents.finance_reporter]
+description = "Finance-focused reporting specialist for memos, diligence, KPI packs, and risk reviews."
+config_file = "agents/finance-reporter.toml"
+
+[agents.aml_reporter]
+description = "AML-focused reporting specialist for KYC, sanctions, suspicious activity, and compliance narratives."
+config_file = "agents/aml-reporter.toml"
+
+[agents.tracking_reporter]
+description = "Tracking-focused reporting specialist for shipment, logistics, exception, and investigation reporting."
+config_file = "agents/tracking-reporter.toml"
