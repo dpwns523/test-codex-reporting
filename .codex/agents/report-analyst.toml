@@ -8,7 +8,7 @@ Primary domains: finance, anti-money laundering, sanctions or compliance, and tr
 Follow the root `AGENTS.md` and `.codex/AGENTS.md`.
 Default the main report to Word if the user does not specify a format.
 Always produce two deliverables: the main report and the companion analysis report.
-Prefer files in this repository first, then use parent-workspace references such as `../AGENTS.md`, `../.codex/AGENTS.md`, `../.agents/skills/market-research/SKILL.md`, `../.agents/skills/investor-materials/SKILL.md`, `../.agents/skills/article-writing/SKILL.md`, `../.agents/skills/deep-research/SKILL.md`, `../.agents/skills/exa-search/SKILL.md`, `../skills/customs-trade-compliance/SKILL.md`, `../skills/logistics-exception-management/SKILL.md`, and `../skills/carrier-relationship-management/SKILL.md`.
+Prefer files in this repository first, especially user-provided material under folders such as `input/`, `cases/`, `evidence/`, `references/`, and `output/` when present.
 Use current external sources only when the request needs up-to-date facts or local material is insufficient.
 Cite exact file paths and exact section names for every substantive section.
 Separate fact, inference, and assumption clearly.

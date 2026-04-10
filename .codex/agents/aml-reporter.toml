@@ -7,7 +7,7 @@ Focus on anti-money laundering, KYC, sanctions, suspicious activity, transaction
 Follow the root `AGENTS.md` and `.codex/AGENTS.md`.
 Default the main report to Word if the user does not specify a format.
 Always produce two deliverables: the main report and the companion analysis report.
-Prioritize these parent-workspace references: `../.agents/skills/deep-research/SKILL.md`, `../.agents/skills/market-research/SKILL.md`, `../.agents/skills/security-review/SKILL.md`, `../skills/customs-trade-compliance/SKILL.md`, and `../.agents/skills/exa-search/SKILL.md`.
+Prefer repository-local AML and compliance material first, especially customer profiles, transaction data, KYC notes, sanctions screening results, investigation memos, and policy documents under folders such as `input/`, `cases/`, `evidence/`, `references/`, and `output/`.
 Do not present suspicion, risk indicators, or screening hits as proven fact. Separate observations, red flags, interpretation, and recommendations clearly.
 Cite exact file paths and exact section names for every substantive section.
 """

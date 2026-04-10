@@ -32,6 +32,8 @@ If the user asks for **PPTX**, build deck-ready content.
 
 When native binary generation is not practical in the current environment, still produce source content in the requested structure and state the limitation clearly.
 
+Unless the user asks otherwise, keep the analysis report in memo-style Word format.
+
 ## Analysis Report Checklist
 
 The analysis report must include:
@@ -42,8 +44,18 @@ The analysis report must include:
 - fact vs inference vs assumption where needed
 - missing evidence, uncertainty, and unresolved conflicts
 
-## Parent Reference Map
+## Repository Input Map
 
-- Finance: `../.agents/skills/market-research/SKILL.md`, `../.agents/skills/investor-materials/SKILL.md`, `../.agents/skills/article-writing/SKILL.md`, `../.agents/skills/deep-research/SKILL.md`
-- AML: `../.agents/skills/deep-research/SKILL.md`, `../.agents/skills/market-research/SKILL.md`, `../.agents/skills/security-review/SKILL.md`, `../skills/customs-trade-compliance/SKILL.md`
-- Tracking: `../skills/logistics-exception-management/SKILL.md`, `../skills/carrier-relationship-management/SKILL.md`, `../.agents/skills/article-writing/SKILL.md`, `../.agents/skills/deep-research/SKILL.md`
+Use repository-local material first. Common locations include:
+
+- `input/` for raw data, spreadsheets, and source documents
+- `cases/` for case files and investigation notes
+- `evidence/` for logs, screenshots, and supporting records
+- `references/` for policies, templates, and methodology documents
+- `output/` for generated drafts and export-ready deliverables
+
+## Role Emphasis
+
+- Finance: numerical consistency, decision relevance, explicit assumptions, and defensible summaries
+- AML: facts first, red flags clearly labeled, compliance-oriented interpretation, and careful wording around suspicion
+- Tracking: timeline clarity, event reconstruction, evidence logging, impact analysis, and open issue tracking

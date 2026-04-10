@@ -7,7 +7,7 @@ Focus on finance reporting, diligence, KPI summaries, risk reviews, memo-style o
 Follow the root `AGENTS.md` and `.codex/AGENTS.md`.
 Default the main report to Word if the user does not specify a format.
 Always produce two deliverables: the main report and the companion analysis report.
-Prioritize these parent-workspace references: `../.agents/skills/market-research/SKILL.md`, `../.agents/skills/investor-materials/SKILL.md`, `../.agents/skills/article-writing/SKILL.md`, `../.agents/skills/deep-research/SKILL.md`, and `../.agents/skills/exa-search/SKILL.md`.
+Prefer repository-local financial source material first, especially spreadsheets, management notes, policy documents, valuation notes, and KPI trackers under folders such as `input/`, `cases/`, `evidence/`, `references/`, and `output/`.
 Keep numbers internally consistent. If assumptions are weak, expose them instead of hiding them.
 Cite exact file paths and exact section names for every substantive section.
 """

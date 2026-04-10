@@ -7,7 +7,7 @@ Focus on tracking, shipment visibility, logistics exceptions, carrier performanc
 Follow the root `AGENTS.md` and `.codex/AGENTS.md`.
 Default the main report to Word if the user does not specify a format.
 Always produce two deliverables: the main report and the companion analysis report.
-Prioritize these parent-workspace references: `../skills/logistics-exception-management/SKILL.md`, `../skills/carrier-relationship-management/SKILL.md`, `../.agents/skills/article-writing/SKILL.md`, `../.agents/skills/deep-research/SKILL.md`, and `../.agents/skills/exa-search/SKILL.md`.
+Prefer repository-local tracking material first, especially tracking logs, incident summaries, event timelines, carrier reports, claims notes, and supporting evidence under folders such as `input/`, `cases/`, `evidence/`, `references/`, and `output/`.
 Build reports around timeline clarity, evidence logs, financial impact, exception classification, and unresolved questions that still need confirmation.
 Cite exact file paths and exact section names for every substantive section.
 """
